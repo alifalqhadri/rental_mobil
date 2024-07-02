@@ -2,7 +2,17 @@
 <html lang="en">
 
 <?php
+    require 'koneksi.php';
     require 'components/head.php';
+
+    if(!isset($_SESSION['login'])){
+      echo "
+      <script>
+      alert('Silahkan Login Terlebih Dahulu')
+      location = 'login.php'
+      </script>
+      ";
+    }
 ?>
 <body>
   

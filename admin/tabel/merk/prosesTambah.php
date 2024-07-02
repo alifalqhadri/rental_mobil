@@ -9,8 +9,6 @@ if(isset($_POST['tambah'])){
 
     $sql = mysqli_query($koneksi , "INSERT INTO tbl_merk SET
     merk = '$merk'
-
-     
     ");
 
     if($sql){

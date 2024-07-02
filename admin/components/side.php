@@ -31,6 +31,12 @@
               <span class="menu-title">Pemesanan</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout.php">
+              <i class="typcn typcn-document-text menu-icon"></i>
+              <span class="menu-title">Logout</span>
+            </a>
+          </li>
 
           
           

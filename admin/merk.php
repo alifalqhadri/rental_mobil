@@ -2,6 +2,7 @@
 <html lang="en">
 
 <?php
+require 'koneksi.php';
     require 'components/head.php';
 ?>
 <body>
@@ -44,7 +45,7 @@
                       <tbody>
 
                           <?php
-                          require 'koneksi.php';
+                          
                           $sql = mysqli_query($conn , "SELECT * FROM tbl_merk");
                           while ($d = mysqli_fetch_array($sql)){
                           ?>

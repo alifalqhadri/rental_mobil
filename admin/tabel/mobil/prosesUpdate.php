@@ -6,7 +6,6 @@ if(isset($_POST['edit'])){
     $nama = $_POST['nama'];
     $warna = $_POST['warna'];
     $dd = $_POST['dd'];
-    $kursi = $_POST['kursi'];
     $harga = $_POST['harga'];
     $tahun = $_POST['tahun'];
     $id_merk = $_POST['merk'];
@@ -24,7 +23,6 @@ if(isset($_POST['edit'])){
     nama = '$nama',
     warna = '$warna',
     dd = '$dd',
-    kursi = '$kursi',
     tahun = '$tahun',
     harga = '$harga',
     gambar = '$gambar',
@@ -85,5 +83,3 @@ function upload(){
 
     return $namaFileBaru;
 }
-
-

@@ -6,14 +6,14 @@ if(isset($_POST['tambah'])){
     $nama = $_POST['nama'];
     $warna = $_POST['warna'];
     $dd = $_POST['dd'];
-    $kursi = $_POST['kursi'];
     $tahun = $_POST['tahun'];
+   
     $harga = $_POST['harga'];
     $id_merk = $_POST['merk'];
 
     $gambar =  upload();
     if( !$gambar ) {
-        return false;
+        return false; 
     }
   
     
@@ -22,7 +22,6 @@ if(isset($_POST['tambah'])){
     nama = '$nama',
     warna = '$warna',
     dd = '$dd',
-    kursi = '$kursi',
     tahun = '$tahun',
     harga = '$harga',
     gambar = '$gambar',

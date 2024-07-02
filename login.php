@@ -39,9 +39,9 @@
 					
 					
 					<div class="wrap-input100 validate-input" data-validate = "">
-						<input class="input100" type="text" name="username">
+						<input class="input100" type="email" name="email">
 						<span class="focus-input100"></span>
-						<span class="label-input100">Username</span>
+						<span class="label-input100">Gmail</span>
 					</div>
 					
 					
@@ -58,9 +58,15 @@
 							Login
 						</button>
 					</div>
+					<br><br>
+					<a class="login100-form-btn" href="registrasi.php">
+						Registrasi
+					</a>
 					
 				</form>
 
+				
+					
 				<div class="login100-more" style="background-image: url('admin/assets/login/images/bg-01.jpg');">
 				</div>
 			</div>

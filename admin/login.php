@@ -28,17 +28,22 @@
               <div class="brand-logo">
                 
               </div>
-              <h4><b>ADMIN</bADMIN</h4>
-              <h6 class="font-weight-light">Welcome to Kevin Admin</h6>
-              <form class="pt-3">
+              <h4><b>ADMIN</b></h4>
+              <h6 class="font-weight-light">Welcome to  Admin</h6>
+
+              <form class="pt-3" method="post" action="proses/login.php" >
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                  <input type="text" name="username" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="assets/index.html">SIGN IN</a>
+                  <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" type="submit" name="login" >
+                  
+                  Login
+                
+                </button>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">
@@ -46,9 +51,10 @@
                   </div>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
-                <a href="register.html" class="text-primary">Create an account</a>
                 </div>
               </form>
+
+
             </div>
           </div>
         </div>
